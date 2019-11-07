@@ -1,0 +1,174 @@
+.wrapper {
+  position: fixed;
+  left: 20%;
+  width: 60%;
+  top: 10%;
+  height: 80%;
+  border: 1px solid #E5E4E4;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 14% 12% 12% 12% 12% 12% 12% 14%;
+  font-family: Arial;
+}
+
+.wrapper > div.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+.wrapper > div.header > div.headingLayout {
+  align-self: end;
+  justify-self: end;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.wrapper > div.header > div.linkLayout {
+  align-self: end;
+  padding-left: 25%;
+  cursor: pointer;
+}
+
+.wrapper > div.header > div.linkLayout > a.link {
+  text-decoration: none;
+  color: #0C77BB;
+  font-size: 12px;
+  border-bottom: 1px dashed #0C77BB;
+}
+
+.wrapper > div.status {
+  padding-left: 30%;
+  padding-right: 27%;
+  align-self: center;
+}
+
+.wrapper > div.status > div.static {
+  background: #EAEAEA;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  font-size: 14px;
+  padding-left: 2%;
+  padding: 5%;
+}
+
+.wrapper > div.status > input.active {
+  background: #EAEAEA;
+  height: 100%;
+  width: 100%;
+  outline: 1px solid #000000;
+  border: 0px;
+  font-size: 14px;
+  padding-left: 2%;
+  padding: 5%;
+  font-weight: bold;
+}
+
+.wrapper > div.CityPasMail {
+  display: grid;
+  grid-template-columns: 30% 35% 35%;
+  grid-template-rows: 70% 30%;
+}
+
+.wrapper > div.border {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #E5E4E4;
+}
+
+.wrapper > div.CityPasMail > div.headingLayout {
+  align-self: center;
+  justify-self: right;
+  padding-right: 30%;
+  font-weight: bold;
+}
+
+.wrapper > div.CityPasMail > div.menuLayout {
+  align-self: center;
+}
+
+.wrapper > div.CityPasMail > div.inscription {
+  padding-left: 4%;
+  padding-right: 3%;
+  align-self: center;
+  font-size: 12px;
+  color: #999999;
+}
+
+.wrapper > div.CityPasMail > div.outputWarning {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  font-size: 12px;
+  padding-left: 30%;
+  align-self: start;
+  color: red;
+}
+
+.wrapper > div.CityPasMail > div.menuLayout > select.selectMenu {
+  width: 100%;
+  padding: 1%;
+  appearance: none;
+  background: url(./components/image/arrow.png) no-repeat center right 3%;
+  background-size: 5%;
+  font-size: 16px;
+}
+
+.wrapper > div.CityPasMail > div.menuLayout > input.inputText {
+  font-size: 16px;
+  width: 97%;
+  padding: 1%;
+  outline: 0px;
+  border: 1px solid #999999;
+}
+
+.wrapper > div.CityPasMail > div.menuLayout > input.inputText--active {
+  border: 1px solid red;
+}
+
+.wrapper > div.CheckBox {
+  display: grid;
+  grid-template-columns: 30% 5% 65%;
+}
+
+.wrapper > div.CheckBox > div.headingLayout {
+  align-self: center;
+  justify-self: right;
+  padding-right: 30%;
+  font-weight: bold;
+}
+
+.wrapper > div.CheckBox > div.checkBoxLayout {
+  align-self: center;
+}
+
+.wrapper > div.CheckBox > div.inscriptionLayout {
+  align-self: center;
+  font-size: 14px;
+}
+
+.wrapper > div.Button {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.wrapper > div.Button > div.buttonLayout {
+  justify-self: end;
+}
+
+.wrapper > div.Button > div.buttonLayout > button.button {
+  width: 100%;
+  height: 50%;
+  border: 0px;
+  border-radius: 5px;
+  outline: 0px;
+  background: #71C838;
+  color: white;
+}
+
+.wrapper > div.Button > div.infoLayout {
+  font-size: 12px;
+  padding-left: 3%;
+  padding-top: 2%;
+  color: #999999;
+}
